@@ -23,12 +23,12 @@ BEGIN_RCPP
 END_RCPP
 }
 // add_rows_cpp
-NumericVector add_rows_cpp(const arma::sp_mat mat);
+NumericVector add_rows_cpp(const arma::sp_mat& mat);
 RcppExport SEXP _quickmatsums_add_rows_cpp(SEXP matSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< const arma::sp_mat >::type mat(matSEXP);
+    Rcpp::traits::input_parameter< const arma::sp_mat& >::type mat(matSEXP);
     rcpp_result_gen = Rcpp::wrap(add_rows_cpp(mat));
     return rcpp_result_gen;
 END_RCPP
