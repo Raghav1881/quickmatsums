@@ -1,0 +1,29 @@
+[
+    {
+        "file": "C:/Users/Anil Sharma/Documents/GitHub/quickmatsums/src/matrix_functions.cpp",
+        "file_last_write": 1697000059.0,
+        "definitions": [
+            {
+                "usr": "c:@F@add_cols_cpp#&1$@N@arma@S@SpMat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "add_cols_cpp(const arma::sp_mat &)",
+                "file": "C:/Users/Anil Sharma/Documents/GitHub/quickmatsums/src/matrix_functions.cpp",
+                "line": 6,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@add_rows_cpp#1$@N@arma@S@SpMat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "add_rows_cpp(const arma::sp_mat)",
+                "file": "C:/Users/Anil Sharma/Documents/GitHub/quickmatsums/src/matrix_functions.cpp",
+                "line": 19,
+                "column": 15,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]

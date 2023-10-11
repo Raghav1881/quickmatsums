@@ -1,0 +1,14 @@
+Package: quickmatsums
+Type: Package
+Title: Quick matrix row/column sums using C++ 
+Version: 1.0
+Date: 2023-10-09
+Author: Raghav Sharma
+Maintainer: Raghav Sharma <raghav.sharma1881@gmail.com>
+Description: Uses Rcpp to perform perform row and column sums on a M x N matrix and returns a vector corresponding to the sums of all rows length M, or a vector corresponding to the sums of all columns length N.
+License: GPL-3
+Encoding: UTF-8
+Imports: Rcpp (>= 1.0.9)
+LinkingTo: Rcpp, RcppArmadillo
+Depends: R (>= 4.0)
+RoxygenNote: 7.2.3
