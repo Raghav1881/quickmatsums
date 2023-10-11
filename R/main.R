@@ -1,4 +1,3 @@
-library(Rcpp)
 library(RcppArmadillo)
 
 quickRowSums <- function(mat) {

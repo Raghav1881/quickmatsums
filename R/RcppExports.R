@@ -2,10 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 add_cols_cpp <- function(mat) {
-    .Call(`_quickmatsums_add_cols_cpp`, mat)
+    .Call('_quickmatsums_add_cols_cpp', PACKAGE = 'quickmatsums', mat)
 }
 
 add_rows_cpp <- function(mat) {
-    .Call(`_quickmatsums_add_rows_cpp`, mat)
+    .Call('_quickmatsums_add_rows_cpp', PACKAGE = 'quickmatsums', mat)
 }
 
