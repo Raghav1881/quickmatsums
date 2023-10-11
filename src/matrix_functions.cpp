@@ -1,7 +1,6 @@
 #define ARMA_64BIT_WORD
 #include "RcppArmadillo.h"
 #include "Rcpp.h"
-#include <omp.h>
 using namespace Rcpp;
 
 // Function to calculate column sums of a sparse matrix
@@ -19,7 +18,7 @@ NumericVector add_cols_cpp(const arma::sp_mat& mat) {
 
 // Function to calculate row sums of a sparse matrix
 // [[Rcpp::export]]
-NumericVector add_rows_cpp(const arma::sp_mat& mat) {
+NumericVector add_rows_cpp(const arma::sp_mat mat) {
   arma::sp_mat z = mat.t();
   int ncol = z.n_cols;
   NumericVector result(ncol, 0.0); // Initialize a vector to store the column sums
