@@ -1,2 +1,2 @@
 # quickmatsums
-Quick matrix row/column sum calculations using C++
+Quick matrix row/column sum calculations in R using C++
